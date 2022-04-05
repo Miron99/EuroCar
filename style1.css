@@ -1,0 +1,342 @@
+
+.titlee{
+    position: static;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    
+}
+
+.header {
+    position: relative;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .header__title {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 3rem;
+}
+
+body {
+   height: 125vh;
+   overflow-x: hidden;
+   font-size: 16px;
+}
+
+.container {
+ 
+ max-width: 900px;
+ width: 100%;
+ margin: auto ;
+ padding-left: 15px;
+ padding-right: 15px;
+
+  
+
+    }
+.navbar {
+    position: absolute;
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #4f8a9c;
+} 
+
+
+.navbar-brand{
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    
+
+
+   }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+li{
+    display: inline-block;
+} 
+a {
+    padding: 7px;
+    color: #fff;
+    opacity: 0.7;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.box {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 350px;
+    height: 250px;
+    background-color:#4f8a9c;
+    background-image: url(mercedes.jpg);
+    z-index: 1;
+    
+    
+}
+.box1 {
+    position: absolute;
+    top: 150px;
+    left: 570px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(bmw.jpg);
+    z-index: 1;
+}
+.box2 {
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(audi2.jpg);
+    z-index: 1;
+}
+
+.border {
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border1 {
+    position: absolute;
+    top: 145px;
+    left: 557px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border2 {
+    position: absolute;
+    top: 145px;
+    left: 1089px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+.box3{
+    position: absolute;
+    top: 150px;
+    left: 570px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(kawasaki1.jpg);
+    z-index: 1;
+}
+
+.box4{
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(honda.jpg);
+    z-index: 1;
+}
+
+.box5{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(harleydevidson.jpg);
+    z-index: 1;
+}
+
+.border3 {
+    position: absolute;
+    top: 145px;
+    left: 40px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border4 {
+    position: absolute;
+    top: 145px;
+    left: 557px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border5 {
+    position: absolute;
+    top: 145px;
+    left: 1089px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+
+
+
+
+
+
+
+.box6{
+    position: absolute;
+    top: 650px;
+    left: 570px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(supra5.jpg);
+    z-index: 1;
+}
+
+.box7{
+    position: absolute;
+    top: 650px;
+    left: 1100px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(skyline.jpg);
+    z-index: 1;
+}
+
+.box8{
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(mazdarx7.jpg);
+    z-index: 1;
+}
+
+.border6 {
+    position: absolute;
+    top: 643px;
+    left: 40px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border7 {
+    position: absolute;
+    top: 643px;
+    left: 557px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border8 {
+    position: absolute;
+    top: 643px;
+    left: 1089px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+
+
+
+
+
+
+.box9{
+    position: absolute;
+    top: 650px;
+    left: 570px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(bmwmoto2.jpg);
+    z-index: 1;
+}
+
+.box10{
+    position: absolute;
+    top: 650px;
+    left: 1100px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(kawasakinew.jpg);
+    z-index: 1;
+}
+
+.box11{
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    width: 350px;
+    height: 250px;
+    background-color: #4f8a9c;
+    background-image: url(ducati.jpg);
+    z-index: 1;
+}
+
+.border9 {
+    position: absolute;
+    top: 643px;
+    left: 40px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border10 {
+    position: absolute;
+    top: 643px;
+    left: 557px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.border11 {
+    position: absolute;
+    top: 643px;
+    left: 1089px;
+    width: 375px;
+    height: 300px;
+    background-color: #4f8a9c;
+}
+
+.kaina{
+    position: absolute;
+    top: 235px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+}

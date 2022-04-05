@@ -1,0 +1,108 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    font-size: 16px;
+ }
+ 
+ .container {
+  
+  max-width: 900px;
+  width: 100%;
+  margin: auto ;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
+
+  .header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .header__title {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 3rem;
+
+   
+ 
+     }
+ .navbar {
+     position: absolute;
+     z-index: 500;
+     left: 0;
+     top: 0;
+     width: 100%;
+     background-color: #4f8a9c;
+ } 
+ 
+ 
+ .navbar-brand{
+     font-size: 26px;
+     font-weight: 700;
+     text-decoration: none;
+     color: black;
+     
+ 
+ 
+    }
+ .container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 70px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ li{
+     display: inline-block;
+ } 
+ a {
+     padding: 7px;
+     color: #fff;
+     opacity: 0.7;
+     text-decoration: none;
+     font-weight: 600;
+     
+ }
+
+ .rastas {
+     position: absolute;
+     top: 150px;
+    background: white;
+    border: 10px solid #4f8a9c;
+    float: left; 
+    padding: 5px;
+    top: 150px;
+    z-index: 1;
+   } 
+
+   .rastas1 {
+    position: absolute;
+    top: 150px;
+   background: white;
+   border: 10px solid #4f8a9c;
+   float: left; 
+   padding: 5px;
+   top: 150px;
+  } 
+
+
+
+  .foto{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    width: 700px;
+    height: 553px;
+    background-image: url(https://g4.dcdn.lt/images/pix/880x550/wctbrouu_gE/vilniuje-atidarytas-atnaujintas-bmw-salonas-68931304.jpg);
+    z-index: 1;
+    border: solid #4f8a9c ;
+  }
+   
+  
